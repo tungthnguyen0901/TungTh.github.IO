@@ -60,15 +60,15 @@ const Hero = () => {
   return (
     <motion.section
     id="hero"
-    className="h-screen flex items-center justify-center bg-gray-100"
+    className="h-screen flex flex-col md:flex-row items-center justify-center bg-gray-100 px-4"
     initial={{ opacity: 0, y: -50 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 1 }}
     variants={heroVariants}
   >
     
-    <section id="home" className="w-full h-screen bg-gradient-to-b from-customColor via-customColorMid to-customColorHigh flex items-center justify-center">
-      <section id="hero" className="w-40%"> <WaveAnimation /></section>
+    <section id="home" className="w-full md:w-2/5 flex justify-center h-screen bg-gradient-to-b from-customColor via-customColorMid to-customColorHigh">
+      <section id="hero" className="w-[40%]"> <WaveAnimation /></section>
       <div className="text-center">
       <motion.h1 
           className="text-4xl md:text-4xl lg:text-5xl font-bold text-white"
@@ -85,9 +85,9 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
-        >
-        <p className="text-xl mb-6"><FadeInText/></p>
+        >        
         </motion.p>
+        <p className="text-xl mb-6"><FadeInText/></p>
         <Link
               to="about" 
               smooth={true} 
