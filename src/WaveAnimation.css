@@ -1,0 +1,41 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1e3a8a, #3b82f6);
+    overflow: hidden;
+  }
+  
+  .wave-animation {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .wave {
+    animation: pulse 3s infinite ease-in-out;
+  }
+  
+  .delay-1 {
+    animation-delay: 1s;
+  }
+  
+  .delay-2 {
+    animation-delay: 2s;
+  }
+  
+  @keyframes pulse {
+    0% {
+      r: 10;
+      stroke-opacity: 1;
+    }
+    50% {
+      r: 100;
+      stroke-opacity: 0.3;
+    }
+    100% {
+      r: 150;
+      stroke-opacity: 0;
+    }
+  }
+  
