@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/TungTh.github.IO/static/css/main.30a9cd41.css",
+    "main.js": "/TungTh.github.IO/static/js/main.85554b8f.js",
+    "static/js/488.9561f9b8.chunk.js": "/TungTh.github.IO/static/js/488.9561f9b8.chunk.js",
+    "static/media/Project1.gif": "/TungTh.github.IO/static/media/Project1.3fc2d0444a8c4697cde3.gif",
+    "static/media/Project3.gif": "/TungTh.github.IO/static/media/Project3.2c0612337ee021cb7365.gif",
+    "static/media/SapphireVn.jpg": "/TungTh.github.IO/static/media/SapphireVn.d04e0322d4e0f942a529.jpg",
+    "static/media/TungNguyenLogo.jpg": "/TungTh.github.IO/static/media/TungNguyenLogo.1e99d3448839977de23f.jpg",
+    "index.html": "/TungTh.github.IO/index.html",
+    "main.30a9cd41.css.map": "/TungTh.github.IO/static/css/main.30a9cd41.css.map",
+    "main.85554b8f.js.map": "/TungTh.github.IO/static/js/main.85554b8f.js.map",
+    "488.9561f9b8.chunk.js.map": "/TungTh.github.IO/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30a9cd41.css",
+    "static/js/main.85554b8f.js"
+  ]
+}
